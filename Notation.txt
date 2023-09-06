@@ -1,0 +1,22 @@
+- Projeto de treinamento das novidades do NextJS 13
+- Baseado pela tutorial da Rocketseat em https://www.youtube.com/watch?v=0zl72thBKzo
+
+- Comando usado para criar o template do projeto Next JS 13
+	$ npx create-next-app@latest --use-npm next13
+
+- Opções atribuídas no comando de criação do template:
+    - TypeScript? Yes
+    - ESLint? Yes
+    - Tailwind CSS? Yes
+    - `src/` directory? Yes
+    - App Router? Yes
+    - import alias? Yes
+    - What import alias would you like configured? @/*
+
+- Arquivos padrão do template excluídos:
+	- ./src/app/page.module.css
+	- README.md
+
+- Removido conteúdo do arquivo ´./src/app/globals.css´ exceto referências ao Tailwind CSS
+
+- Removido conteúdo da function Home() do arquivo "./src/app/page.tsx"
